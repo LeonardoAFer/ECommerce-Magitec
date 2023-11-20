@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-footer {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer p {
+
+    position: relative;
+    margin-top: 0.6%;
+}
+
+footer img {
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 41%;
+
+}
+
+.rodape {
+
+    position: relative;
+    margin-top: 200px;
+    background: #152147;
+    height: 400px;
+    justify-content: center;
+
+}
+
+.inf-magitec img {
+
+    position: relative;
+    left: 145px;
+    top: 80px;
+
+
+}
+
+
+.rodape-a a {
+
+    color: #fff;
+    position: relative;
+    left: 82%;
+    line-height: 35px;
+    z-index: 2;
+    top: 80px;
+}
+
+
+
+.inf {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 110px;
+    right: 60px;
+
+
+
+}
+
+
+
+.inf h2 {
+
+    color: #fff;
+    font-size: 25px;
+
+
+}
+
+.inf p {
+
+    color: #fff;
+
+}
+
+.inf-magitec {
+    max-width: 300px;
+    max-height: 190px;
+    position: relative;
+    right: 200px;
+}
+
+.inf-magitec p {
+    overflow: hidden;
+}
+
+.inf-magitec img {
+
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .inf {
+        display: flexbox;
+        margin-top: 240px;
+    }
+
+    .rodape {
+        height: 600px;
+    }
+
+    .inf-magitec {
+        left: 190px;
+        bottom: 250px;
+    }
+
+    .inf-magitec p {
+        max-height: 170px;
+    }
+
+    .rodape-a a {
+        left: 65%;
+    }
+
+    .rodape-a {
+        position: relative;
+        margin-top: 20px;
+    }
+
+
+    footer img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        right: 26%;
+    }
+
+}

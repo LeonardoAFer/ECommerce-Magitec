@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="shortcut icon" href="../imgs/logoo.jpg" type="image/x-icon">
+
+    <title>Magitec</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="login.html">
+                <img src="../imgs/magitec2.png" alt="magiteclogo">
+            </a>
+        </nav>
+    </header>
+
+    <video id="video-fundo" autoplay muted loop>
+        <source src="../imgs/waves.mp4" type="video/mp4">
+
+    </video>
+
+    <main>
+        <section>
+
+            <article id="login" style="height: 420px;">
+                <form action="../php/inclusaousuario.php" method="post">
+                <h1>Registrar</h1>
+                <div class="login-page">
+                    <div>
+                        <input class="usuario" type="usuario" name="nm_usuario" id="nm_usuario">
+                        <label>Usuario</label>
+                    </div>
+                </div>
+                <div class="login-page">
+                    <div>
+                        <input class="email" type="email" name="ds_email" id="ds_email">
+                        <label>Email</label>
+                    </div>
+                </div>
+                <div class="login-page">
+                    <div>
+                        <input class="senha" type="password" name="ds_senha" id="ds_senha">
+                        <label>Senha</label>
+                    </div>
+                </div>
+                    <button type="submit" class="btn btn-primary">CADASTRAR</button>
+            
+                  </form>
+
+            </article>
+        </section>
+    </main>
+
+
+
+
+</body>
+
+</html>

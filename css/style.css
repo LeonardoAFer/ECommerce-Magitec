@@ -1,0 +1,99 @@
+
+h1{
+	text-align: center;
+}
+
+#box{
+    background-color: darkcyan;
+    height: 60px;
+    color:white;
+    line-height: 60px;
+    font-size: 20px;            
+  }
+
+ p{
+  text-align: center;
+
+ }
+
+ .inputWithIcon input[type="text"] {
+    padding-left: 40px;
+  }
+
+  .inputWithIcon input[type="password"] {
+    padding-left: 40px;
+  }
+
+  @media (max-width: 360px){
+    .inputWithIcon{
+      margin-left:16px;
+    }  
+  }
+
+ @media (min-width: 1300px){
+      .inputWithIcon{
+        margin-left:40px;
+      }  
+    }
+
+ @media (max-width: 375px){
+      .inputWithIcon{
+        margin-left:10px;
+      }  
+    }
+  
+ @media (max-width: 411px){
+      .inputWithIcon{
+        margin-left:5px;
+      }  
+  }
+
+  @media (max-width: 414px){
+      .inputWithIcon{
+        margin-left:5px;
+      }  
+    }
+
+ .inputWithIcon i {
+    position: absolute;
+    left: 5;
+    top: 2px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+
+  .menu1{
+    position: relative;
+    right: 50px;
+  }
+
+  @media (max-width: 360px){
+    .menu1{
+      position: relative;
+      right: 1px;
+    }  
+  }
+
+  @media (max-width: 375px){
+    .menu1{
+      position: relative;
+      right: 1px;
+    }  
+  }
+
+@media (max-width: 411px){
+  .menu1{
+    position: relative;
+    right: 1px;  
+  }
+}
+@media (max-width: 414px){
+  .menu1{
+    position: relative;
+    right: 5px;  
+  }
+}
+
+
+

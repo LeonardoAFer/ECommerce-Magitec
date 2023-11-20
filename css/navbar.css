@@ -1,0 +1,92 @@
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+.container img {
+
+    height: 20px;
+    position: absolute;
+    right: 90%;
+    top: 100%;
+}
+
+.container {
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.container-fluid {
+
+    display: flex;
+    position: absolute;
+    left: 53%;
+    top: 100%;
+}
+
+.container-fluid a {
+
+    color: #fff;
+    position: relative;
+    margin-right: 50px;
+
+
+}
+
+.sair-icon img {
+
+    right: 85%;
+    height: 23px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container img {
+
+        height: 20px;
+        position: absolute;
+        right: 80%;
+        top: 100%;
+    }
+
+
+
+    .container-fluid {
+
+        display: flex;
+        position: absolute;
+        left: 20%;
+        top: 100%;
+    }
+
+    .container-fluid a {
+
+        color: #fff;
+        position: relative;
+        font-size: 15px;
+        margin-right: 18px;
+
+    }
+
+    .procurar {
+
+        width: 30%;
+
+    }
+
+    .sair-icon img {
+
+
+        right: 92%;
+        height: 20px;
+        top:15px;
+
+    }
+
+
+
+}

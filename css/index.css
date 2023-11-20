@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.wrapper {
+
+    width: 1200px;
+    position: relative;
+    transform: translateX(30%);
+}
+
+.wrapper .carrosel {
+
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 0px;
+    overflow: hidden;
+    padding-inline-end: 35px;
+    scroll-behavior: smooth;
+}
+
+.carrosel img {
+
+    object-fit: cover;
+    margin-inline-start: 35px;
+
+
+}
+
+
+
+.carousel-controls button {
+
+    line-height: 45px;
+    position: absolute;
+    top: 60%;
+    background-color: #152147;
+    opacity: 50%;
+
+}
+
+.botao-direita button {
+
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    right: 280px;
+}
+
+.botao-esquerda button {
+
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    left: 320px;
+}
+
+
+.compra-tecido input {
+
+    width: 290px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+section h1 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #152147;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.container-lg {
+
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    position: relative;
+    max-height: 800px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+
+}
+
+.container-lg::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+.container-lg::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.container-lg::-webkit-scrollbar-thumb {
+    background-color: #152147;
+    border-radius: 15px;
+}
+
+.container-lg img {
+
+    margin: 20px;
+    height: 290px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-lg img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.area-tecido h2 {
+
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    margin-top: 5px;
+
+
+
+}
+
+.navigation-tecidos {
+
+
+    position: relative;
+    left: 75.5%;
+    top: 260px;
+
+
+}
+
+.area-tecido h3 {
+    text-align: center;
+    font-weight: 400;
+    color: #818181;
+    font-size: 18px;
+
+}
+
+
+
+.container-lg a {
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+.container-banner-index h1 {
+
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    max-width: 900px;
+    margin-top: 8px;
+    margin-left: 27%;
+    color: #fff;
+}
+
+.imagem1-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel {
+
+    width: 1200px;
+    margin-top: 150px;
+    left: 360px;
+    box-shadow:
+        0px 4.3px 10.6px -4px rgba(0, 0, 0, 0.162),
+        0px 11.9px 21.8px -4px rgba(0, 0, 0, 0.254),
+        0px 28.6px 35.5px -4px rgba(0, 0, 0, 0.296),
+        0px 95px 74px -4px rgba(0, 0, 0, 0.25)
+}
+
+.carousel img {
+
+    width: 1200px;
+}
+
+@media (max-width: 768px) {
+
+    .wrapper {
+
+        width: 650px;
+        position: relative;
+        transform: translateX(6%);
+    }
+
+    .wrapper .carrosel {
+
+        cursor: pointer;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-inline-end: 35px;
+        scroll-behavior: smooth;
+    }
+
+    .carrosel img {
+
+        object-fit: cover;
+        margin-inline-start: 35px;
+        width: 90px;
+    }
+
+
+
+    .botao-direita button {
+
+
+        top: 33%;
+        height: 30px;
+        border-radius: 50%;
+        width: 30px;
+        right: 50px;
+
+    }
+
+    .botao-esquerda button {
+        top: 33%;
+        border-radius: 50%;
+        width: 30px;
+        left: 20px;
+    }
+
+    .carousel {
+        width: 600px;
+        margin-top: 150px;
+        left: 100px;
+        box-shadow:
+            0px 4.3px 10.6px -4px rgba(0, 0, 0, 0.162),
+            0px 11.9px 21.8px -4px rgba(0, 0, 0, 0.254),
+            0px 28.6px 35.5px -4px rgba(0, 0, 0, 0.296),
+            0px 95px 74px -4px rgba(0, 0, 0, 0.25)
+    }
+
+    .carousel img {
+        width: 600px;
+
+    }
+
+
+}
+

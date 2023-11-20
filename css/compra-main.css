@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.nav-compra{
+
+    background-color: #000;
+    height: 50px;
+    display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+.nav-compra img{
+
+width: 200px;
+padding-left: 50px;
+
+
+}
+
+.container-compra1{
+
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+.container-compra1 h1{
+
+color: #000;
+font-size: 20px;
+font-weight: 400;
+padding-top: 20px;
+
+}
+
+hr{
+
+border-color: #b3b3b3e3;
+    height: 0.5px;
+    background-color: #b3b3b3e3;
+
+}
+
+
+
+.container-compra2 {
+
+display: flex;
+padding-right: 25px;
+
+}
+
+.dados-pessoa{
+
+border: 1px solid #000;
+max-width: 400px;
+width: 400px;
+text-align: left;
+padding-left: 50px;
+padding-top: 20px;
+height: 450px;
+border: 1px solid#b3b3b36e;
+border-radius: 5px;
+margin-right: 100px;
+
+}
+
+.dados-pessoa h1{
+
+color: #000;
+font-size: 19px;
+font-weight: 700;
+
+}
+
+.dados-pessoa p {
+
+font-size: 15px;
+max-width: 300px;
+color: #707070;
+
+}
+
+.dados-pessoa input {
+
+
+width: 300px;
+
+}
+
+.dados-pagamento {
+
+border: 1px solid #b3b3b36e;
+border-radius: 5px;
+text-align: left;
+padding-left: 25px;
+padding-top: 20px;
+height: 400px;
+padding: 20px ;
+
+}
+
+
+.dados-pagamento h1 {
+
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+
+.dados-pagamento button{
+
+    width: 100px;
+    margin-left: 5px;
+
+}
+
+.dados-pagamento p{
+
+    color: #707070;
+}
+
+
+.dados-pagamento img{
+
+background-color: #fff;
+
+
+}
+
+.botao-area {
+margin-top: 40px;
+border-radius: 15px;
+background-color: #32BCAD;
+
+
+}
+
+.botao-area p {
+
+color: #fff;
+padding-top: 40px;
+text-align: center;
+max-width: 400px;
+
+}
+
+.resumo-pedido{
+
+    margin-left: 100px;
+    max-width: 350px;
+    overflow: hidden;
+
+
+}
+
+.resumo-pedido h1{
+
+
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+
+
+}
+
+.imagem {
+
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+padding-left: 20px;
+font-size: 15px;
+color: #707070;
+
+
+
+}
+
+.imagem img {
+
+    height: 50px;
+
+
+
+}
+
+.imagem p {
+
+padding: 10px;
+
+}
+
+.resumo-pedido h2 {
+
+font-weight: 500;
+padding-left: 20px;
+padding-top: 10px;
+font-size: 15px;
+color: #707070;
+
+
+
+}
+
+
+.btn-compra button{
+
+    background-color: #000;
+    border: none;
+    height: 60px;
+width: 1000px;
+max-width: 350px;
+}
+
+
+.btn-compra button:disabled {
+
+opacity: .4;
+cursor: default;
+
+}
+
+
+
+.btn-compra{
+
+padding-top: 20px;
+
+}
+
+.total p{
+
+padding-left: 20px;
+
+}
+
+.total h3 {
+
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+.container-compra2 {
+
+padding-top: 100px;
+display: flex;
+justify-content: center;
+    
+}
+
+.voltar{
+
+display: flex;
+padding-left: 100px;
+
+}

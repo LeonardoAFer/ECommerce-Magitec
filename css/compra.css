@@ -1,0 +1,211 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.banner-sobre-nos img {
+
+    width: 1920px;
+    position: relative;
+    max-height: 500px;
+    right: 10px;
+    overflow: hidden;
+}
+
+.banner-sobre-nos h1 {
+
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 600px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.compra {
+
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+
+}
+
+.compra-desc {
+
+    max-width: 500px;
+
+}
+
+.compra-desc h1 {
+
+    font-weight: 300;
+
+}
+
+.compra-desc h2 {
+
+    font-size: 20px;
+
+}
+
+.tecido-img img {
+
+    margin-inline: 100px;
+    width: 400px;
+
+}
+
+.tecido-comprar {
+
+    background-color: rgba(243, 239, 239, 0.856);
+    border-radius: 5px;
+    width: 400px;
+    height: 470px;
+}
+
+.tecido-comprar h1 {
+
+    font-size: 18px;
+    max-width: 100px;
+    position: relative;
+    top: 12px;
+
+}
+
+.tecido-comprar hr {
+
+    max-width: 320px;
+    margin-top: 50px;
+}
+
+.tecido-comprar h2 {
+
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.tecido-comprar h3 {
+
+    font-size: 15px;
+
+}
+
+.novidade {
+
+    background-color: #000;
+    max-width: 80px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.unidades {
+
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+
+.texto-tecido-comprar {
+
+    padding-left: 10%;
+
+}
+
+.tecido-comprar a {
+
+    color: #6e6e6e;
+    text-decoration: none;
+
+}
+
+.tecido-comprar button {
+
+    background-color: #48cc2d;
+    border: none;
+    text-align: center;
+    height: 60px;
+    width: 325px;
+    margin-left: 10%;
+
+}
+
+.dados-tecnicos {
+
+    margin-top: 100px;
+
+}
+
+
+.dados-tecnicos h1 {
+
+    font-size: 30px;
+    text-align: center;
+    margin-right: 67.5%
+}
+
+
+.table th {
+
+    width: 300px;
+
+}
+
+table {
+
+    max-width: 800px;
+
+}
+
+.dados-inf {
+
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    padding-top: 40px
+}
+
+.ofertas-email {
+
+
+    background-color: #152147;
+    color: #FFF;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+
+}
+
+.ofertas-email input {
+
+    width: 500px;
+
+}
+
+.banner-icons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+top: 90px;
+
+
+}
