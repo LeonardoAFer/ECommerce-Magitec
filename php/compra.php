@@ -35,7 +35,7 @@
     <h1>Dados pessoais</h1>
     <p>Solicitamos apenas as informações essenciais para a realização da compra.</p>
     
-<form class="container">
+<form class="container" >
 <label for="ds_emailpag">Email</label>
 <input type="text" name="ds_emailpag" id="ds_emailpag" onchange="toggleButton()">
 <label for="nm_nomepag">Nome</label>
@@ -130,6 +130,7 @@ if (isset($_GET['preco'])) {
 ?>
 
 
+
   
       <hr>
     
@@ -148,8 +149,39 @@ if (isset($_GET['preco'])) {
 
     </div>
     <div class="btn-compra">
-  <button id="fim-compra" type="submit" class="btn btn-primary" data-nome="<?php echo $nome; ?> "data-preco=<?php echo $preco; ?>>Finalizar compra</button>
+  <button id="fim-compra" type="submit" class="btn btn-primary" onclick="finalizarCompra()"data-nome="<?php echo $nome; ?> "data-preco=<?php echo $preco; ?>>Finalizar compra</button>
 </div>
+
+<script>
+function finalizarCompra() {
+  var formData = new FormData();
+  formData.append('ds_emailpag', document.getElementById('ds_emailpag').value);
+  formData.append('nm_nomepag', document.getElementById('nm_nomepag').value);
+  formData.append('nm_ulnomepag', document.getElementById('nm_ulnomepag').value);
+  formData.append('ds_cpfpag', document.getElementById('ds_cpfpag').value);
+  formData.append('ds_numeropag', document.getElementById('ds_numeropag').value);
+
+  var nome = "<?php echo $nome; ?>";
+  var preco = "<?php echo $preco; ?>";
+  formData.append('nm_produtopag', nome);
+  formData.append('ds_precopag', preco);
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', 'inclusaocompra.php', true);
+  xhr.onload = function() {
+    if (xhr.status >= 200 && xhr.status < 400) {
+      console.log(xhr.responseText);
+    } else {
+      console.error(xhr.statusText);
+    }
+  };
+  xhr.onerror = function() {
+    console.error('Erro na requisição.');
+  };
+
+  xhr.send(formData);
+}
+</script>
 
   </div>
 </div>
@@ -173,27 +205,13 @@ if (isset($_GET['preco'])) {
     </div>
   </div>
 
-  <script>
-
-    const toastTrigger = document.getElementById('liveToastBtn')
-    const toastLiveExample = document.getElementById('liveToast')
-
-    if (toastTrigger) {
-      const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-      toastTrigger.addEventListener('click', () => {
-        toastBootstrap.show()
-      })
-    }
-
-  </script>
-
   <div class="rodape-a">
     <a class="nav-link active" aria-current="page" href="../html/sobre-nos.html">Sobre nós</a>
-    <a class="nav-link active" aria-current="page" href="#">Tecidos</a>
+    <a class="nav-link active" aria-current="page" href="../php/index.php">Tecidos</a>
     <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
     <a class="nav-link active" aria-current="page" href="#">Novidades</a>
-    <a class="nav-link active" aria-current="page" href="#">Termos de serviços</a>
-    <a class="nav-link active" aria-current="page" href="#">Politica de privacidade</a>
+    <a class="nav-link active" aria-current="page" href="../policy/policy.pdf" download="policy.pdf">Termos de serviços</a>
+    <a class="nav-link active" aria-current="page" href="../policy/privacy.pdf" download="privacy.pdf">Politica de privacidade</a>
   </div>
   <div class="inf">
     <div class="inf-magitec">

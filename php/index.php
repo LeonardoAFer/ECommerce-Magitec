@@ -40,24 +40,17 @@
         </a>
       </div>
       <div class="container-fluid">
-        <a style="right: 39%" class="nav-link active" aria-current="page" href="../html/login.html">Sair</a>
+        <a style="right: 50%" class="nav-link active" aria-current="page" href="../html/login.html">Sair</a>
         <a class="nav-link active" aria-current="page" href="../html/sobre-nos.html">Sobre nós</a>
         <a class="nav-link active" aria-current="page" href="#compra-tecido">Tecidos</a>
         <a class="nav-link active" aria-current="page" href="../php/ofertas.html">Ofertas</a>
         <a class="nav-link active" aria-current="page" href="#">Novidades</a>
         <a class="navbar-brand"></a>
-        <div class="procurar">
-          <form class="d-flex" role="search">
-            <input id="procurar"  style="height: 30px;" class="form-control me-2" type="Procura-se" placeholder="Procura-se"
-              aria-label="Search">
-            <button class="btn btn-sm btn-outline-secondary" type="button">Procurar</button>
-          </form>
-        </div>
       </div>
     </div>
   </nav>
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <svg xmlns="http://www.w3.org/20 00/svg" viewBox="0 0 1440 320">
     <path fill="#152147" fill-opacity="1"
       d="M0,224L30,218.7C60,213,120,203,180,170.7C240,139,300,85,360,101.3C420,117,480,203,540,208C600,213,660,139,720,128C780,117,840,171,900,176C960,181,1020,139,1080,106.7C1140,75,1200,53,1260,64C1320,75,1380,117,1410,138.7L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
     </path>
@@ -189,8 +182,8 @@
       <a class="nav-link active" aria-current="page" href="#compra-tecido">Tecidos</a>
       <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
       <a class="nav-link active" aria-current="page" href="#">Novidades</a>
-      <a class="nav-link active" aria-current="page" href="#">Termos de serviços</a>
-      <a class="nav-link active" aria-current="page" href="#">Politica de privacidade</a>
+      <a class="nav-link active" aria-current="page" href="../policy/policy.pdf" download="policy.pdf">Termos de serviços</a>
+    <a class="nav-link active" aria-current="page" href="../policy/privacy.pdf" download="privacy.pdf">Politica de privacidade</a>
     </div>
     <div class="inf">
       <div class="inf-magitec">

@@ -1,4 +1,5 @@
 function toggleButton() {
+
   const email = document.querySelector('#ds_emailpag').value;
   const nome = document.querySelector('#nm_nomepag').value;
   const ultimoNome = document.querySelector('#nm_ulnomepag').value;
@@ -31,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
   
     });
+    
   
    
   });

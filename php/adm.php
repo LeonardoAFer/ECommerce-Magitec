@@ -34,7 +34,6 @@
 
 
 
-	<!-- menu -->
 	<div class="nav-side-menu">
 		<div class="brand" href="../php/adm.php">
 			<img src="../imgs/magitec3.png" alt="MAGITEC LOGO">
@@ -55,14 +54,7 @@
 					<li><a href="#" id="estoque"><i class="fa fa-angle-right"></i>Estoque</a></li>
 				</ul>
 
-				<ul class="sub-menu collapse" id="cadastro">
 
-					<li><a href="#" id="estoque"><i class="fa fa-angle-right"></i>Mais vendidos</a></li>
-				</ul>
-
-
-
-				<!--Menu relatórios-->
 
 				<li data-toggle="collapse" data-target="#relatorio" class="collapsed">
 					<a href="#"><i class="fa fa-print" aria-hidden="true"></i>Relatórios <span class="arrow"><i
@@ -74,7 +66,13 @@
 					<li><a href="#" id="relestoque"><i class="fa fa-angle-right"></i>Estoque</a></li>
 				</ul>
 
-				<!--Fim do menu relatórios-->
+				
+				<ul class="sub-menu collapse" id="relatorio">
+
+					<li><a href="#" id="relecompra"><i class="fa fa-angle-right"></i>Compras</a></li>
+				</ul>
+
+	
 				<div class="sair-adm">
 					<a href="../html/login.html">Sair</a>
 				</div>

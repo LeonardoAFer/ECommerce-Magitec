@@ -37,7 +37,7 @@
 
         $amount = isset($_GET['amount']) ? $_GET['amount'] : '0.00';
 
-        $obPayload = (new Payload)->setPixKey('13904')
+        $obPayload = (new Payload)->setPixKey('13904190962')
                     ->setDescription('Pagamento tecido')
                     ->setMerchantName('Magitec')
                     ->setMerchantCity('Joinville SC')

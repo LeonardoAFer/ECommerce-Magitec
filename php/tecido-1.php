@@ -28,17 +28,12 @@
             <img style="right: 85%; height: 23px;" src="../imgs/logout-icon.png" alt="logout">
         </a>
         <div class="container-fluid">
-            <a style="right: 39%" class="nav-link active" aria-current="page" href="../html/login.html">Sair</a>
+            <a style="right: 50%" class="nav-link active" aria-current="page" href="../html/login.html">Sair</a>
             <a class="nav-link active" aria-current="page" href="../html/sobre-nos.html">Sobre nós</a>
-            <a class="nav-link active" aria-current="page" href="#">Tecidos</a>
+            <a class="nav-link active" aria-current="page" href="../php/index.php">Tecidos</a>
             <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
             <a class="nav-link active" aria-current="page" href="#">Novidades</a>
             <a class="navbar-brand"></a>
-            <form class="d-flex" role="search">
-                <input style="height: 30px;" class="form-control me-2" type="Procura-se" placeholder="Procura-se"
-                    aria-label="Search">
-                <button class="btn btn-sm btn-outline-secondary" type="button">Procurar</button>
-            </form>
         </div>
     </div>
 </nav>
@@ -258,7 +253,6 @@ if (isset($_GET['gram'])) {
        <div style="background-color : #25D366; " class="toast-header">
          <img style="width : 50px" src="../imgs/zap.png" class="rounded me-2" alt="...">
          <strong style="font-size : 18px" class="me-auto">Contate-nos</strong>
-         <small>11 mins ago</small>
          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
        </div>
        <div style="background-color : #075E54;" class="toast-body">
@@ -272,8 +266,8 @@ if (isset($_GET['gram'])) {
          <a class="nav-link active" aria-current="page" href="#">Tecidos</a>
          <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
          <a class="nav-link active" aria-current="page" href="#">Novidades</a>
-         <a class="nav-link active" aria-current="page" href="#">Termos de serviços</a>
-         <a class="nav-link active" aria-current="page" href="#">Politica de privacidade</a>
+         <a class="nav-link active" aria-current="page" href="../policy/policy.pdf" download="policy.pdf">Termos de serviços</a>
+    <a class="nav-link active" aria-current="page" href="../policy/privacy.pdf" download="privacy.pdf">Politica de privacidade</a>
        </div>
        <div class="inf">
          <div class="inf-magitec">

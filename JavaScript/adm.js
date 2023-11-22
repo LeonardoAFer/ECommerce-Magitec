@@ -13,6 +13,14 @@ $(document).ready(() => {
 		})
 	})
 
+	$('#relecompra').on('click', () => {
+$.post('../php/consultar_compras.php' , data =>{
+	$('#pagina').html(data)
+})
+
+
+	})
+
 	
 })
 

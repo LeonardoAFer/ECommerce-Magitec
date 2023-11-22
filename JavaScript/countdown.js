@@ -15,7 +15,7 @@ function countdown() {
     } else {
         clearInterval(intervalId);
         console.log("Tempo expirado!");
-        window.location.href = "html/login.html";
+        window.location.href = "html/temp-exe.html";
 
     }
 }
